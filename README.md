@@ -16,4 +16,4 @@ The README will be populated with the following:
 * Questions
 
 
-![video](<iframe src="https://drive.google.com/file/d/1swXVuQBYTGChVPcL3m3PQLFnBYOsQdGg/preview" width="640" height="480"></iframe>)
+![video](https://drive.google.com/file/d/1swXVuQBYTGChVPcL3m3PQLFnBYOsQdGg/preview)
