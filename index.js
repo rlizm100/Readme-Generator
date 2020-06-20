@@ -5,7 +5,12 @@ const util = require("util");
 const writeFileAsync = util.promisify(fs.writeFile);
 
 //prompt the user to answer questions about the project the readme is for
-function promptUser() {[
+function promptUser() {
+    return inquirer.prompt([
+    {type: "input",
+    name: "username",
+    message: "What is your github username?"
+    },
     {type: "input",
      name: "title",
      message: "What is the project's title?"
@@ -27,7 +32,7 @@ function promptUser() {[
      message: "Please enter any license information."
     }
 
-]};
+])};
 
 //generate the readme based on the user responses
 function generateReadme(answers) {
@@ -51,7 +56,9 @@ ${answers.license}
 # Contributing
 [Contributor Covenant](https://www.contributor-covenant.org/)
 # Tests
+https://img.shields.io/badge/test-none-blue
 # Questions
+${answers.username}
 
 `
 }
