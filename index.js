@@ -24,7 +24,7 @@ function promptUser() {[
     },
     {type: "input",
      name: "license",
-     message: "Please enter and license informtion."
+     message: "Please enter any license information."
     }
 
 ]};
