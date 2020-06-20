@@ -1,8 +1,8 @@
 
 # Title
-Title
+Readme Generator
 # Description
-New project
+Generates a readme file
 # Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
@@ -10,13 +10,15 @@ New project
 * [Contributing](#contributing)
 * [Tests](#tests)
 # Installation
-Dowload
+None
 # Usage
-install and do stuff
+enter node index.js to start the prompts
 # License
-no license
+none
 # Contributing
 [Contributor Covenant](https://www.contributor-covenant.org/)
 # Tests
+https://img.shields.io/badge/test-none-blue
 # Questions
+rlizm100
 
